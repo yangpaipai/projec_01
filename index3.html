@@ -1,56 +1,15 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <style>
-        #bills {
-            width: 400px;
-        }
-    </style>
-    <script type="text/javascript" src="./jquery-3.2.1.min.js"></script>
-    <script type="text/javascript">
-        $(function () {
-            $(function () {
-
-                var foodCells = $("#bills td").filter(function () {
-                    return $(this).text() === "食品";
-                });
-
-
-                foodCells.each(function () {
-                    $(this).html("<img src='./food.jpg'>");
-                });
-            });
-        }); 
-    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 
 <body>
-    <table id="bills">
-        <tr>
-            <th>编号</th>
-            <th>分类</th>
-            <th>名称</th>
-            <th>价格(元)</th>
-        </tr>
-        <tr>
-            <td>01</td>
-            <td>食品</td>
-            <td>农夫山泉矿泉水</td>
-            <td>2.00</td>
-        </tr>
-        <tr>
-            <td>02</td>
-            <td>日用品</td>
-            <td>洗发水</td>
-            <td>25.00</td>
-        </tr>
-        <tr>
-            <td>03</td>
-            <td>娱乐休闲</td>
-            <td>暑假旅游</td>
-            <td>5000.00</td>
-        </tr>
-    </table>
+
 </body>
+
+</html>
