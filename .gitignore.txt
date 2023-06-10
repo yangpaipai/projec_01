@@ -1,0 +1,4 @@
+# 忽略index3.css这个文件
+index3.css
+# 忽略test目录下的所有文件
+test/
